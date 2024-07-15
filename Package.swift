@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MillicastSDK",
     platforms: [
-        .iOS("14.5"), .tvOS("14.5")
+        .iOS("14.5"), .tvOS("14.5"),.visionOS("2.0")
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
